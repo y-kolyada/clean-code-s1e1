@@ -22,7 +22,7 @@
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,15 +32,19 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-item {
   display: flex;
+  padding-top: 20px;
+}
+.task-label {
+  flex-grow: 1;
 }
 .task-list {
   margin: 0;
   padding: 0px;
 }
 .task-item,
-.section-heading {
+.heading {
   list-style: none;
 }
 input,
@@ -60,7 +64,7 @@ button {
   color: #3a3a3a;
 }
 /* Heading */
-.section-heading,
+.heading,
 .form-label {
   color: #333;
   font-weight: 700;
@@ -131,7 +135,7 @@ input#new-task {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed label {
   text-decoration: line-through;
   color: #888;
 }
