@@ -4,21 +4,21 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.matrix-header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.matrix-header img {
   width: 100%;
 }
-.aaa .more-info {
+.matrix-header .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .matrix-header {
     text-align: center;
   }
 }
@@ -27,7 +27,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -47,7 +47,7 @@ input,
 button {
   outline: none;
 }
-.btn {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -56,7 +56,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.btn:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -121,12 +121,12 @@ input#new-task {
 .task-item >  input[type="text"] {
   width: 226px;
 }
-.btn.delete img {
+.button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn.delete img:hover {
+.button.delete img:hover {
   transform: rotateZ(0);
 }
 
