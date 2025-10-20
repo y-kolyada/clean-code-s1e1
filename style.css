@@ -13,7 +13,7 @@
 .aaa img {
   width: 100%;
 }
-.aaa .more_inf {
+.aaa .more-info {
   font-family: fantasy, cursive;
 }
 
@@ -141,11 +141,11 @@ input#new-task {
   display: none;
 }
 
-.task-item.editMode input[type=text] {
+.task-item.edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.task-item.editMode label {
+.task-item.edit-mode label {
   display: none;
 }
