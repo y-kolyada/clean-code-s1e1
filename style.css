@@ -27,6 +27,11 @@
   width: 500px;
   margin: 0 auto 0;
 }
+.app-title {
+  text-align: center;
+  font-size: 32px;
+  margin: 10px 0;
+}
 .task-input {
   width: 56%;
   display: inline-block;
@@ -85,6 +90,7 @@ input[type="text"] {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  flex-grow: 1;
 }
 input[type="text"]:focus {
   color: #333;
